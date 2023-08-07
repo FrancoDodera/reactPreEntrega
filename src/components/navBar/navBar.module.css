@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2b2b2b;
+  padding: 10px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #d9d9d9;
+}
+
+.buttons button {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #d9d9d9;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.cart button {
+  font-size: 16px;
+  color: #d9d9d9;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}

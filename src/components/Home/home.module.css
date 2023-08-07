@@ -1,0 +1,40 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 32px;
+  color: #ff0000;
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 500px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.description {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.image:not(:first-child) {
+  margin-left: -100%;
+}

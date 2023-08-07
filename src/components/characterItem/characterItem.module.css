@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(128, 128, 128);
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  width: 20rem;
+}
+
+.container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.container p {
+  margin-bottom: 5px;
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: #1b1b1b;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+.container button:hover {
+  background-color: #333333;
+}
+
+.nombre {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #470b0b;
+  text-align: center;
+  text-decoration: double;
+  overflow: hidden;
+}
+
+.descripcion {
+  font-weight: bold;
+  color: #470b0b;
+  text-align: center;
+  text-decoration: double;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+.comprar {
+  padding: 8px 16px;
+  background-color: #265e00;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
